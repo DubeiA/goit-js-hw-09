@@ -24,11 +24,12 @@ img {
   max-width: 100%;
 }
 
+/* Button task - 1 */
+
 .btn {
   display: inline-block;
-  /* min-width: 200px; */
+
   padding: 10px 32px;
-  /* margin-top: 30px; */
 
   border-radius: 4px;
   border: none;
@@ -50,5 +51,57 @@ img {
 
 .btn:hover,
 .btn:focus {
+  background-color: tomato;
+}
+
+/*  input and timer task - 2 */
+
+.timer {
+  display: flex;
+  width: 300px;
+  gap: 10px;
+
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#datetime-picker {
+  margin-top: 4px;
+
+  width: 300px;
+  height: 40px;
+
+  text-align: center;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+
+  border-radius: 6px;
+  outline: transparent;
+
+  font-size: 18px;
+}
+
+button[data-start] {
+  display: inline-block;
+
+  padding: 4px 20px;
+
+  border-radius: 20px;
+  border: none;
+
+  /* background: var(--hover-color);
+  color: var(--main-backg-color); */
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.04em;
+
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button[data-start]:hover {
   background-color: tomato;
 }
