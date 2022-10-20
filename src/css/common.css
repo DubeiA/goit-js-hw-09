@@ -86,7 +86,7 @@ button[data-start] {
 
   padding: 4px 20px;
 
-  border-radius: 20px;
+  border-radius: 4px;
   border: none;
 
   /* background: var(--hover-color);
